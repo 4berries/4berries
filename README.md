@@ -1,2 +1,4 @@
 # 4berries
-for video editors
+library for video editors
+
+Project start: September 15th, 2026
