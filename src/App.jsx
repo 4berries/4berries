@@ -98,7 +98,7 @@ function App() {
 </div>
 <h1>4berries</h1>
 
-<div className="container mx-auto outline outline-2 outline-secondary rounded-full>
+<div className="container mx-auto outline outline-2 outline-secondary rounded-full">
 <div className="card bg-base-100 w-50 shadow-sm rounded-full">
   <figure>
     <img
