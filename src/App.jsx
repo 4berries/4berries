@@ -112,8 +112,8 @@ function App() {
     </h2>
    {/* <p>A card component has a figure, a body part, and inside body there are title and actions parts</p> */}
     <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
+      <div className="badge badge-outline">Basic</div>
+      <div className="badge badge-outline">test</div>
     </div>
   </div>
 </div>
