@@ -99,7 +99,7 @@ function App() {
 <h1>4berries</h1>
 
 <div className="container mx-auto outline outline-2 outline-secondary rounded-lg">
-<div className="card bg-base-100 w-50 shadow-sm rounded-lg">
+<div className="card bg-base-100 w-50 shadow-sm rounded-lg px-4 py-4">
   <figure>
     <img
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
