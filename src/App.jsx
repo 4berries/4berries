@@ -99,7 +99,7 @@ function App() {
 <h1>4berries</h1>
 
 <div class="container mx-auto">
-<div className="card bg-base-100 w-46 shadow-sm">
+<div className="card bg-base-100 w-50 shadow-sm">
   <figure>
     <img
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -111,9 +111,9 @@ function App() {
       <div className="badge badge-secondary">NEW</div>
     </h2>
    {/* <p>A card component has a figure, a body part, and inside body there are title and actions parts</p> */}
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">Basic</div>
-      <div className="badge badge-outline">test</div>
+    <div className="card-actions justify-center">
+      <div className="badge badge-outline">Fashion</div>
+      <div className="badge badge-outline">Products</div>
     </div>
   </div>
 </div>
