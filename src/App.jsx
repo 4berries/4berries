@@ -96,7 +96,7 @@ function App() {
 {/* change popover-1 and --anchor-1 names. Use unique names for each dropdown */}
 {/* For TSX uncomment the commented types below */}
 <button className="btn" popoverTarget="sort-dropdown1" style={{ anchorName: "sort-dropdown1-anchor1" } /* as React.CSSProperties */}>
-  Button
+  Sort by
 </button>
 
 <ul className="dropdown menu w-52 rounded-box bg-base-100 shadow-sm"
