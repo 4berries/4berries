@@ -1,3 +1,5 @@
+import { circle-plus, circle-fading-plus, circle-minus } from "lucide-react";
+
 function App() {
   return (
     <main className="p-8">
