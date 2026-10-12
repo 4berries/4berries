@@ -48,23 +48,23 @@ function App() {
         name="theme-dropdown"
         className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
         aria-label="Default"
-        value="default" />
+        value="nord" />
     </li>
     <li>
       <input
         type="radio"
         name="theme-dropdown"
         className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-        aria-label="Retro"
-        value="retro" />
+        aria-label="Night"
+        value="night" />
     </li>
     <li>
       <input
         type="radio"
         name="theme-dropdown"
         className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-        aria-label="Cyberpunk"
-        value="cyberpunk" />
+        aria-label="Abyss"
+        value="abyss" />
     </li>
     <li>
       <input
@@ -79,8 +79,8 @@ function App() {
         type="radio"
         name="theme-dropdown"
         className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-        aria-label="Aqua"
-        value="aqua" />
+        aria-label="Winter"
+        value="winter" />
     </li>
   </ul>
 </div>
