@@ -29,7 +29,7 @@ function App() {
     </ul>
   </div>
   <div className="navbar-end">
-  <div className="dropdown mb-72">
+  <div className="dropdown">
   <div tabIndex={0} role="button" className="btn m-1">
     Theme
     <svg
