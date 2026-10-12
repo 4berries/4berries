@@ -98,6 +98,23 @@ function App() {
 </div>
 <h1>4berries</h1>
 
+<div className="container mx-auto rounded-lg">
+<input type="text" placeholder="Name" className="input" />
+{/* change popover-1 and --anchor-1 names. Use unique names for each dropdown */}
+{/* For TSX uncomment the commented types below */}
+<button className="btn" popoverTarget="sort-dropdown1" style={{ anchorName: "sort-dropdown1-anchor1" } /* as React.CSSProperties */}>
+  Button
+</button>
+
+<ul className="dropdown menu w-52 rounded-box bg-base-100 shadow-sm"
+  popover="auto" id="sort-dropdown1" style={{ positionAnchor: "sort-dropdown1-anchor1" } /* as React.CSSProperties */ }>
+  <li><a>Alphabetical</a></li>
+  <li><a>Difficulty</a></li>
+  <li><a>Time</a></li>
+  <li><a>Popularity</a></li>
+</ul>
+</div>
+
 <div className="container mx-auto outline outline-2 outline-secondary rounded-lg">
 <div className="card bg-base-100 w-50 shadow-sm rounded-lg px-4 py-4">
   <figure>
