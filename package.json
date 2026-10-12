@@ -12,10 +12,10 @@
     "@tailwindcss/vite": "latest",
     "@vitejs/plugin-react": "latest",
     "daisyui": "latest",
+    "lucide-react": "^1.55.0",
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }
