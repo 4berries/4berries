@@ -96,7 +96,6 @@ function App() {
 </div>
   </div>
 </div>
-<h1>4berries</h1>
 
 <div className="container mx-auto rounded-lg px-4">
 <input type="text" placeholder="Name" className="input" />
