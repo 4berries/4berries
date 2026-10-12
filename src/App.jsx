@@ -93,7 +93,7 @@ function App() {
   </div>
 </div>
 
-<div className="container mx-auto rounded-lg px-10">
+<div className="container mx-auto rounded-lg flex gap-4">
 <input type="text" placeholder="Name" className="input" />
 <button className="btn btn-outline btn-secondary">New</button> {/*add the number here for amount of new stuff */}
 
@@ -114,7 +114,7 @@ function App() {
 </div>
 
 <div className="container mx-auto outline outline-2 outline-secondary rounded-lg">
-<div className="card bg-base-100 w-50 shadow-sm rounded-lg px-4 py-4">
+<div className="card bg-base-100 w-50 shadow-sm rounded-lg px-4 py-4 flex gap-4">
   <figure>
     <img
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
