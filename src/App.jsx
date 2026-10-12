@@ -29,11 +29,11 @@ function App() {
     </ul>
   </div>
   <div className="navbar-end">
-<div className="dropdown">
+<div className="dropdown rounded-full">
   <div tabIndex={0} role="button" className="btn m-1">
     Theme
     <svg
-      width="9px"
+      width="12px"
       height="12px"
       className="inline-block h-2 w-2 fill-current opacity-60"
       xmlns="http://www.w3.org/2000/svg"
