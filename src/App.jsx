@@ -21,17 +21,11 @@ function App() {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2 bg-base-100 w-40 z-1">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+        <li><a>Apps/Software</a></li>
+        <li><a>Trends</a></li>
+        <li><a>Styles</a></li>
+        <li><a>Techniques</a></li>
+        <li><a>Resources</a></li>
     </ul>
   </div>
   <div className="navbar-end">
