@@ -29,7 +29,6 @@ function App() {
     </ul>
   </div>
   <div className="navbar-end">
-<div className="dropdown rounded-full">
   <div tabIndex={0} role="button" className="btn m-1">
     Theme
     <svg
