@@ -87,7 +87,7 @@ function App() {
   </div>
 </div>
 
-<div className="container mx-auto rounded-lg flex gap-2">
+<div className="container mx-auto rounded-lg flex gap-2 py-5">
 <input type="text" placeholder="Name" className="input" />
 <button className="btn btn-outline btn-secondary">New</button> {/*add the number here for amount of new stuff */}
 
