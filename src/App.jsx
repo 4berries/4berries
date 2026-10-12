@@ -9,7 +9,7 @@ function App() {
       </div>
       <ul
         tabIndex={-1}
-        className="menu menu-sm dropdown-hover bg-base-100 rounded-full z-1 mt-5 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-5 w-52 p-2 shadow">
         <li><a>Apps/Software</a></li>
         <li><a>Trends</a></li>
         <li><a>Styles</a></li>
