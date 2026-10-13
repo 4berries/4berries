@@ -102,7 +102,7 @@ const click = (color) => {
 <div className="container mx-auto rounded-lg flex gap-2 py-5">
 <input type="text" placeholder="Name" className="input" />
 <button
-  className={`btn btn-secondary ${noSolidColor ? "" : "btn-outline"}`}
+  className={`btn btn-secondary ${noSolidColor ? "outline outline-offset-2" : "btn-outline"}`}
   onClick={() => yesSolidColor(!noSolidColor)}
 >
   New
