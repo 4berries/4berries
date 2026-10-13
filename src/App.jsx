@@ -1,6 +1,16 @@
 import { circle-plus, circle-fading-plus, circle-minus } from "lucide-react";
+import { useState } from "react"
+
 
 function App() {
+
+const [cardColor, setCardColor] = useState("bg-secondary");
+
+const click = (color) => {
+  setCardColor(color);
+};
+
+
   return (
     <main className="p-8">
     <div className="navbar bg-base-100 shadow-sm rounded-full">
@@ -91,7 +101,9 @@ function App() {
 
 <div className="container mx-auto rounded-lg flex gap-2 py-5">
 <input type="text" placeholder="Name" className="input" />
-<button className="btn btn-outline btn-secondary">New</button> {/*add the number here for amount of new stuff */}
+<button className="btn btn-outline btn-secondary"
+  onClick={() => click("bg-secondary")}
+>New</button> {/*add the number here for amount of new stuff */}
 
 {/* change popover-1 and --anchor-1 names. Use unique names for each dropdown */}
 {/* For TSX uncomment the commented types below */}
