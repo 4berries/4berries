@@ -1,4 +1,4 @@
-import { circle-plus, circle-fading-plus, circle-minus } from "lucide-react";
+import { CirclePlus, CircleFadingPlus, CircleMinus } from "lucide-react";
 import { useState } from "react"
 
 
